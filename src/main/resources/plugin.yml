@@ -1,0 +1,14 @@
+name: FeastScore
+version: 1.0
+main: com.emanuelvini.feastplugins.score.FeastScore
+website: "https://github.com/feastplugins/FeastScore"
+depend:
+  - PlaceholderAPI
+softdepend:
+  - PlotSquared
+  - SimpleClans
+authors: [emanuelVINI]
+permissions:
+  feastscore.admin:
+    default: "op"
+    description: "Acess to all plugin commands"

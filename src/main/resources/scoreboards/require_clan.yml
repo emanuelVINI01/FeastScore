@@ -1,0 +1,16 @@
+required hook: "SimpleClans" #Requer que o jogador tenha um clan.
+required world: "" #Se for vazio não requer
+required permission: "" #Se for vazio não requer
+weight: 2 #Usado para definir se ela será sobreescrita a outra scoreboard
+
+scoreboard:
+  title: "&5&lFEAST PLUGINS"
+  lines:
+    - "&r"
+    - " &fTPS: &a%server_tps%"
+    - " &fNome: &a%player_name%"
+    - "&r"
+    - " &fPing: &a%player_ping%"
+    - " &fClan: &a%simpleclans_clan_name%"
+    - ""
+    - " &dfeastplugins.com"

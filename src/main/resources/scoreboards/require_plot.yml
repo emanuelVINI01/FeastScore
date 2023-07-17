@@ -1,0 +1,17 @@
+required hook: "PlotSquared" #Requer que o jogador esteja em um terreno dominado.
+required world: "terrenos" #Mundo ao qual o jogador deve estar para ativar ela
+required permission: "" #Se for vazio não requer
+weight: 2 #Usado para definir se ela será sobreescrita a outra scoreboard
+
+scoreboard:
+  title: "&5&lFEAST TERRENOS"
+  lines:
+    - "&r"
+    - " &fTPS: &a%server_tps%"
+    - " &fNome: &a%player_name%"
+    - "&r"
+    - " &fPing: &a%player_ping%"
+    - " &fTerreno:"
+    - "  &fDono: &a%plotsquared_currentplot_owner%"
+    - ""
+    - " &dfeastplugins.com"
