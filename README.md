@@ -11,9 +11,9 @@ Um plugin de Scoreboard com diversos hooks e configurações.
 
 ```yaml
 # Suporte atual aos hooks: PlotSquared e SimpleClans
-required hook: "PlotSquared" #Requer que o jogador esteja em um terreno dominado.
-required world: "" #Mundo ao qual o jogador deve estar para ativar ela
-required permission: "" #Se for vazio não requer
+required-hook: "PlotSquared" #Requer que o jogador esteja em um terreno dominado.
+required-world: "" #Mundo ao qual o jogador deve estar para ativar ela
+required-permission: "" #Se for vazio não requer
 weight: 2 #Usado para definir se ela será sobreescrita a outra scoreboard
 
 scoreboard:
