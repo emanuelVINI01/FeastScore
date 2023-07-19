@@ -70,11 +70,11 @@ public class ScoreboardRegistry extends Registry {
 
     private ScoreboardInfo loadScoreboard(ConfigurationSection section) {
         HookType hookType = HookType.NONE;
-        if (!section.getString("required hook").equals("")) {
+        if (!section.getString("required_hook").equals("")) {
             try {
                 hookType = getHookTypeFromString(section.getString("required hook"));
             } catch (Exception e) {
-                plugin.log(String.format("§b[SCOREBOARD] §cO tipo de hook §f%s§c não existe!", section.getString("required hook")));
+                plugin.log(String.format("§b[SCOREBOARD] §cO tipo de hook §f%s§c não existe!", section.getString("required_hook")));
                 return null;
             }
         }
@@ -87,8 +87,8 @@ public class ScoreboardRegistry extends Registry {
         return ScoreboardInfo.
                 create().
                 requiredHook(hookType).
-                requiredWorld(section.getString("required world")).
-                requiredPermission(section.getString("required permission")).
+                requiredWorld(section.getString("required_world")).
+                requiredPermission(section.getString("required_permission")).
                 weight(section.getInt("weight")).
                 title(ChatColor.translateAlternateColorCodes('&', section.getString("scoreboard.title"))).
                 lines(

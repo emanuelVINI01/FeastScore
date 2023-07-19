@@ -2,6 +2,6 @@ help:
   - "§d§FEAST SCORE"
   - ""
   - "§f/feastscore reload §8-§7 Recarrega as scoreboards."
-not have permission: "&cVocê não tem permissão para fazer isso!"
+not_have_permission: "&cVocê não tem permissão para fazer isso!"
 
-successfully reloaded: "&aO plugin foi recarregado com sucesso!"
+successfully_reloaded: "&aO plugin foi recarregado com sucesso!"

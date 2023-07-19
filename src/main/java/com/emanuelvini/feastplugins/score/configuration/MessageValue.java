@@ -25,10 +25,10 @@ public class MessageValue implements ConfigurationInjectable {
     @ConfigField("help")
     private List<String> help;
 
-    @ConfigField("not have permission")
+    @ConfigField("not_have_permission")
     private String notHavePermission;
 
-    @ConfigField("successfully reloaded")
+    @ConfigField("successfully_reloaded")
     private String successfullyReloaded;
 
     public static <T> T get(Function<MessageValue, T> function) {

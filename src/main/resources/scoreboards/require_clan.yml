@@ -1,6 +1,6 @@
-required hook: "SimpleClans" #Requer que o jogador tenha um clan.
-required world: "" #Se for vazio não requer
-required permission: "" #Se for vazio não requer
+required_hook: "SimpleClans" #Requer que o jogador tenha um clan.
+required_world: "" #Se for vazio não requer
+required_permission: "" #Se for vazio não requer
 weight: 2 #Usado para definir se ela será sobreescrita a outra scoreboard
 
 scoreboard:

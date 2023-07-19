@@ -19,7 +19,7 @@ public class ConfigurationValue implements ConfigurationInjectable {
     @Getter
     private static ConfigurationValue instance = new ConfigurationValue();
 
-    @ConfigField("scoreboard.update time")
+    @ConfigField("scoreboard.update_time")
     private int updateTime;
 
 
