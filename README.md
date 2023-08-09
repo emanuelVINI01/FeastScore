@@ -1,13 +1,13 @@
 # FeastScore
-Um plugin de Scoreboard com diversos hooks e configurações.
+A scoreboard plugin with configurations and hooks.
 
-# [Clique aqui para ver o vídeo demonstrativo do plugin.](https://youtu.be/gdYQ47cKQlE])
+# [Click to see demo video.](https://youtu.be/gdYQ47cKQlE])
 
 ![](https://i.imgur.com/JGSneqb.gif)
 
 ![](https://i.imgur.com/9Xsftok.gif)
     
-# Configuração da ScoreBoard
+# Configuration of scoreboard
 
 ```yaml
 # Suporte atual aos hooks: PlotSquared e SimpleClans
