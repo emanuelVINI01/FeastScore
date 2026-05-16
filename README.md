@@ -1,31 +1,23 @@
+> "Este projeto faz parte do meu início na programação. O código aqui é legado, reflete meus primeiros passos de aprendizado e não segue as práticas de arquitetura que utilizo hoje. Mantido aqui puramente por valor histórico e nostalgia."
+
 # FeastScore
-A scoreboard plugin with configurations and hooks.
 
-# [Click to see demo video.](https://youtu.be/gdYQ47cKQlE])
+## O que este projeto tentava resolver
 
-![](https://i.imgur.com/JGSneqb.gif)
+Um plugin de Scoreboard com diversos hooks e configurações.
 
-![](https://i.imgur.com/9Xsftok.gif)
-    
-# Configuration of scoreboard
+Na prática, este repositório representa uma fase inicial de experimentação: código escrito para aprender, testar ideias, automatizar tarefas ou resolver demandas pontuais em comunidades e servidores. A prioridade na época era fazer funcionar, não desenhar uma arquitetura limpa.
 
-```yaml
-# Suporte atual aos hooks: PlotSquared e SimpleClans
-required-hook: "PlotSquared" #Requer que o jogador esteja em um terreno dominado.
-required-world: "" #Mundo ao qual o jogador deve estar para ativar ela
-required-permission: "" #Se for vazio não requer
-weight: 2 #Usado para definir se ela será sobreescrita a outra scoreboard
+## Stack identificada
 
-scoreboard:
-  title: "&5&lFEAST PLUGINS"
-  lines:
-    - "&r"
-    - " &fTPS: &a%server_tps%"
-    - " &fNome: &a%player_name%"
-    - "&r"
-    - " &fPing: &a%player_ping%"
-    - ' &fUptime: &a%server_uptime%'
-    - ""
-    - " &dfeastplugins.com"
+Bukkit/Spigot, Java, Maven
 
-```
+## Leitura do código
+
+- pom.xml identificado.
+- plugin.yml indica plugin Bukkit/Spigot.
+- diretório `src/` concentra a implementação principal.
+
+## Estado atual
+
+Este repositório não deve ser usado como referência do meu padrão técnico atual. Ele fica público para preservar a evolução: da fase de tentativa e erro com Java/Kotlin/Minecraft/Discord até os projetos atuais com sistemas web, APIs, dados e infraestrutura mais bem definidos.
